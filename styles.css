@@ -96,7 +96,8 @@ a:hover{
   background-color:#379237;
   color: white;
   transition-duration: 1s;
-  
+  width: 32%;
+  height: 22%;
 }
 
 
@@ -145,7 +146,13 @@ h1,h5,h4{
   position: relative;
   top: 0px;
 }
+.shop-section:hover{
+  width: 25%;
+  height: 33%;
+  background-color: #423F3E;
 
+  transition-duration: 1.5s;
+}
 
 .footer-outer{
   background-color: #2B2B2B;
