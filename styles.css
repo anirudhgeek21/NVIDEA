@@ -3,7 +3,7 @@ body{
 }
 
 
-/* NAVIGATION BAR */
+
 
 .navigation-bar-flex,.navigation-bar-left-flex,.navigation-left-options-flex,.navigation-bar-right-flex,.navigation-right-options-flex{
   display:flex;
@@ -17,7 +17,7 @@ body{
   position: absolute;
   top: 0;
   right: 0;
-  left: 0;/* THIS IS THE CODE TO NAKE THE NAVIGATION BAR MARGINS FROM THE SIDES AND TOP =0 SO THAT IT STICKS TO THE ENDS */
+  left: 0;
 }
 .navigation-bar-left-flex{
   margin-left: 6%;
@@ -65,7 +65,7 @@ a:hover{
 
 
 
-/* BANNER */
+
 .banner-flex{
   background-color: black;
   display:flex;
@@ -150,7 +150,6 @@ h1,h5,h4{
   width: 25%;
   height: 33%;
   background-color: #423F3E;
-
   transition-duration: 1.5s;
 }
 
